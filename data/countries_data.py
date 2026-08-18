@@ -1,4 +1,4 @@
-[
+countries_dict = [
     {
         "name": "Afghanistan",
         "capital": "Kabul",
