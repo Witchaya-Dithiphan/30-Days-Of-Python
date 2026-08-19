@@ -1,0 +1,1 @@
+print(sort_countries("population",True))

@@ -45,7 +45,7 @@ print(sum_of_even_cube)
 # Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
 
 def get_string_lists(l1):
-    return list(filter(lambda x: isinstance(x, str), l1))
+    return list(map(lambda n:str(n),l1))
 print(get_string_lists(numbers))
 
 # Use reduce to sum all the numbers in the numbers list.
