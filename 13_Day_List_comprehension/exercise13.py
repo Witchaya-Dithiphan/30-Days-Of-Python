@@ -53,7 +53,9 @@ print(countries_dict)
 names = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
 # output
 # ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
-# Write a lambda function which can solve a slope or y-intercept of linear functions.
-
 list_of_concatenated_string = [f"{first_name} {last_name}" for [(first_name,last_name)] in names]
 print(list_of_concatenated_string)
+# Write a lambda function which can solve a slope or y-intercept of linear functions.
+
+slope = lambda x1,y1,x2,y2: (y1-y2)/(x1-x2)
+print(slope(1,1,5,9))
