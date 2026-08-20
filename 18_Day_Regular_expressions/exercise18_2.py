@@ -9,9 +9,9 @@ import re
 
 name = input("Enter your name: ")
 def is_valid_variable(name):
-    regex = r'[A-Za-z]+_[A-Za-z]+|[A-Za-z]+'
+    regex = r'[A-Za-z]+_[A-Za-z]+$|[A-Za-z]+$'
     find = re.match(regex,name)
-    if find != None and find.span()[1] == len(name):
+    if find != None:
         return True
     else:
         return False
